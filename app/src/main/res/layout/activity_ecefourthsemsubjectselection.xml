@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub"
+    tools:context=".ecefourthsemsubjectselection">
+
+    <Button
+        android:id="@+id/ececs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:onClick="ececsfourthsemcsOcl"
+        android:text="control system"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/eceact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="analog circuits"
+        app:layout_constraintBottom_toTopOf="@+id/eceac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ececs" />
+
+    <Button
+        android:id="@+id/eceac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="analog communication"
+        app:layout_constraintBottom_toTopOf="@+id/eceds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eceact" />
+
+    <Button
+        android:id="@+id/eceds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data structure"
+        app:layout_constraintBottom_toTopOf="@+id/ecenm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eceac" />
+
+    <Button
+        android:id="@+id/ecenm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numerical method"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eceds" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

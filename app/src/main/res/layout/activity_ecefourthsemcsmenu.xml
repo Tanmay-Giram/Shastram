@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res"
+    tools:context=".ecefourthsemcsmenu">
+
+    <Button
+        android:id="@+id/syllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:onClick="ecefourthsemcssyllabusOcl"
+        android:text="syllabus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ecevl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ecefourthsemcsvlOcl"
+        android:text="video lectures"
+        app:layout_constraintBottom_toTopOf="@+id/ecebk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syllabus" />
+
+    <Button
+        android:id="@+id/ecebk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ecefourthsemcsbooksOcl"
+        android:text="books"
+        app:layout_constraintBottom_toTopOf="@+id/ecene"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecevl" />
+
+    <Button
+        android:id="@+id/eceqb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ecefourthsemcsqbOcl"
+        android:text="question bank"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecene" />
+
+    <Button
+        android:id="@+id/ecene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ecefourthsemcsnoteOcl"
+        android:text="notes"
+        app:layout_constraintBottom_toTopOf="@+id/eceqb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecebk" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

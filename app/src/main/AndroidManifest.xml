@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shastram">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shastram">
+        <activity
+            android:name=".ecefourthsemcsqb"
+            android:exported="false"
+            android:label="Question Bank"
+            android:parentActivityName=".ecefourthsemsubjectselection" />
+        <activity
+            android:name=".ecefourthsemcsbooks"
+            android:exported="false"
+            android:label="Books"
+            android:parentActivityName=".ecefourthsemsubjectselection" />
+        <activity
+            android:name=".ecefourthsemcsnote"
+            android:exported="false"
+            android:label="Notes"
+            android:parentActivityName=".ecefourthsemsubjectselection" />
+        <activity
+            android:name=".ecefourthsemcssyllabus"
+            android:exported="false"
+            android:label="Syllabus"
+            android:parentActivityName=".ecefourthsemsubjectselection" />
+        <activity
+            android:name=".ecefourthsemcsvl"
+            android:exported="false"
+            android:label="video Lectures"
+            android:parentActivityName=".ecefourthsemsubjectselection" />
+        <activity
+            android:name=".ecefourthsemsubjectselection"
+            android:exported="false"
+            android:label="subjects"
+            android:parentActivityName=".ecefourthsemcsmenu" />
+        <activity
+            android:name=".ecefourthsemcsmenu"
+            android:exported="false"
+            android:label="ECE iv Sem"
+            android:parentActivityName=".homepageece" />
+        <activity
+            android:name=".homepagecivil"
+            android:exported="false"
+            android:label="CIVIL"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".homepagemech"
+            android:exported="false"
+            android:label="MECH"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".homepagecs"
+            android:exported="false"
+            android:label="CS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".homepageit"
+            android:exported="false"
+            android:label="IT"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".homepageece"
+            android:exported="false"
+            android:label="ECE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

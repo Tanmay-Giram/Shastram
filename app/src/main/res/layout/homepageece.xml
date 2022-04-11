@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sem"
+    tools:context=".homepageece">
+
+    <Button
+        android:id="@+id/ecefirstsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="I"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ecesecondsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="II"
+        app:layout_constraintBottom_toTopOf="@+id/ecethirdsem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecefirstsem" />
+
+    <Button
+        android:id="@+id/ecethirdsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="III"
+        android:textColor="#FBC02D"
+        app:layout_constraintBottom_toTopOf="@+id/ecefourthsem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecesecondsem" />
+
+    <Button
+        android:id="@+id/ecefourthsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ecefourthsemOcl"
+        android:text="IV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecethirdsem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359559286634",
+    "project_id": "shastram-c28ac",
+    "storage_bucket": "shastram-c28ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359559286634:android:96a2a697d0cf27366edf13",
+        "android_client_info": {
+          "package_name": "com.example.shastram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359559286634-mgdr0sj4h6i6tktq3fsr2h7g3a0jgdti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleQerQNVEq3OEXUI-CwnAiLmwZ2Gl0ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359559286634-mgdr0sj4h6i6tktq3fsr2h7g3a0jgdti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
