@@ -7,6 +7,8 @@
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/drawable/c_launcher_background.xml" value="0.294" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/drawable/gi_background.xml" value="0.294" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/drawable/ic_launcher_background.xml" value="0.294" />
+        <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/drawable/iop_background.xml" value="0.2895" />
+        <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/font/amatica_sc_bold.xml" value="0.29444444444444445" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_ecefourthsemcsbooks.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_ecefourthsemcsmenu.xml" value="0.23278985507246377" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_ecefourthsemcsnote.xml" value="0.28125" />
@@ -17,6 +19,7 @@
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_ecefourthsemvl.xml" value="0.23278985507246377" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_ecesubjectselection.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_logonactivity.xml" value="0.2765625" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_main2.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_main3.xml" value="0.28125" />
@@ -26,6 +29,7 @@
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_menuece.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_scrolling.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_sign_up_acitivity.xml" value="0.15625" />
+        <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/activity_sign_up_activtity.xml" value="0.25" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/content_main.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/content_scrolling.xml" value="0.28125" />
         <entry key="..\:/Users/TEJAS BIBEKAR/AndroidStudioProjects/shastram/app/src/main/res/layout/homepagecs.xml" value="0.28125" />
